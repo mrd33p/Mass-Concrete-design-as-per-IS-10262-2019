@@ -4,7 +4,7 @@ tic
 vt={'string','string','string','string','double','double','double','double','double','double','double','double','double','double','double','double','double','double','double','double'};
 vn={'cement','exposure','conc_type','agg_type','slump','fly_ash','msa','sg_cement','sg_ash','sg_ca','sg_fa','fa_zone','fck','cement_incrmnt','cement_kg','ash_kg','slump_water','mass_fa','mass_ca','wc_ratio'};
 td=zeros(1,14);
-td=readtable('check_p1.xlsx');
+td=readtable('L1.xlsx');
 trial1=table('size',[1,20],'VariableTypes',vt,'VariableNames',vn);
 n=1;
 %% Read data for mass_c function
@@ -29,5 +29,5 @@ for i=1:1
     trial1(i,:)=mass_c(di,t1,t2,t11,tt1,tt2,tt5,tt13);
     n=n+1
 end
-writetable(trial1,'check_p2.xlsx');
+writetable(trial1,'L2.xlsx');
 toc
