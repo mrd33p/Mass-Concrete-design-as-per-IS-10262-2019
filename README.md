@@ -26,6 +26,6 @@ STEP #3
 
 Now just run the mass_input in matlab.
 
-your mix design will be available in L2.xlsx file in te same folder. 
+your mix design will be available in L2.xlsx file in the same folder. 
 
 If you face any issue just open new issue, I will try to solve your problem.
